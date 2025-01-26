@@ -6,3 +6,4 @@ oluşturulan_parola = ""
 for _ in range(şifre_uzunluğu):
     oluşturulan_parola += random.choice(karakterler)
 print("Oluşturulan parola:", oluşturulan_parola)
+
