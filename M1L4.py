@@ -27,6 +27,13 @@ async def joined(ctx, member: discord.Member):
 @bot.command(description='For when you wanna settle the score some other way')
 async def choose(ctx, *choices: str):
     """Chooses between multiple choices."""
-    await ctx.send(random.choice(choices))   
+    await ctx.send(random.choice(choices))
+
+@bot.command()
+async def repeat(ctx, times: int, *, content='repeating...'):
+    """Repeats a message multiple times."""
+    
+    for _ in range(times):
+        await ctx.send(content)
 
 bot.run("TOKEN")
