@@ -23,3 +23,5 @@ Proje Amacı Nedir? : Bu projenin amacı kahve severlerin kafeye gittiklerinde o
 * Python: Görüntü işleme ve model entegrasyonu.
 * TensorFlow / Keras: (Google Teachable Machine tarafından kullanılan kütüphaneler.)
 * NumPy, PIL (Python Imaging Library): Görsel verilerin işlenmesi.
+
+[☕COFFEE SEPARATOR:KAHVE AYIRICI](https://github.com/powergirl34/PYTON-PRO?tab=readme-ov-file#readme)
